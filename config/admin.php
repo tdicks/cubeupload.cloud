@@ -5,17 +5,17 @@ return [
     /*
      * Laravel-admin name.
      */
-    'name' => 'Laravel-admin',
+    'name' => 'CubeAdmin',
 
     /*
      * Logo in admin panel header.
      */
-    'logo' => '<b>Laravel</b> admin',
+    'logo' => 'Cube<b>Admin</b>',
 
     /*
      * Mini-logo in admin panel header.
      */
-    'logo-mini' => '<b>La</b>',
+    'logo-mini' => '<b>CU</b>',
 
     /*
      * Route configuration.
@@ -37,7 +37,7 @@ return [
     /*
      * Laravel-admin html title.
      */
-    'title' => 'Admin',
+    'title' => 'CubeAdmin',
 
     /*
      * Use `https`.
@@ -82,7 +82,7 @@ return [
     'database' => [
 
         // Database connection for following tables.
-        'connection' => '',
+        'connection' => 'admin',
 
         // User tables and model.
         'users_table' => 'admin_users',

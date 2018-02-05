@@ -39,6 +39,12 @@ return [
             'prefix' => '',
         ],
 
+        'admin' => [
+            'driver' => 'sqlite',
+            'database' => database_path('admin/admin.sqlite'),
+            'prefix' => ''
+        ],
+
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
